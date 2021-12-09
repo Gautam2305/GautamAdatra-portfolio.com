@@ -32,15 +32,15 @@ hr{
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
-.link-primary{
+.primary-link{
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
 }
-.link-secondary{
-    color: var(--primary-color);
-    border-radius: 0.5rem;
-    border: 1px solid var(--primary-color);
+secondary-link{
+    color: white;
+
+    background-color: var(--primary-color);
 }
 /** lists**/
 
@@ -80,6 +80,7 @@ hr{
     display: block;
     margin: auto;
 }
+
 .hero .hero-heading{
     text-align:center; 
     color: var(--dark-gray);
