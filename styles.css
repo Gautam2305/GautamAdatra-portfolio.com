@@ -37,10 +37,12 @@ hr{
     border-radius: 0.5rem;
     color: white;
 }
-secondary-link{
-    color: white;
+.secondary-link{
+    color: black;
+    border-radius: 0.5rem;
+    border : 1px solid var(--primary-color)
 
-    background-color: var(--primary-color);
+    
 }
 /** lists**/
 
